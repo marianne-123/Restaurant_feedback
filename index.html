@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 2</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <h1>We love cake</h1>
+      <p>Welcome to our restaurant!</p>
+      <p>
+        Below you can see the menu. Please leave a rating and tell others what
+        you think of our cakes.
+      </p>
+
+      <table id="menu-table">
+        <tr>
+          <th class="header">Name</th>
+          <th class="header">Price</th>
+        </tr>
+        <tr>
+          <td>Lava cake</td>
+          <td>6,50 €</td>
+        </tr>
+        <tr>
+          <td>Cheesecake</td>
+          <td>6 €</td>
+        </tr>
+        <tr>
+          <td>Brownie</td>
+          <td>5 €</td>
+        </tr>
+        <tr>
+          <td>Fruit cake</td>
+          <td>6 €</td>
+        </tr>
+        <tr>
+          <td>Cookie</td>
+          <td>3 €</td>
+        </tr>
+      </table>
+      <div id="rating-div">
+        <label for="rate">Rate the restaurant:</label>
+        <select name="rate" id="rate">
+          <option value="4">Amazing</option>
+          <option value="3">Good</option>
+          <option value="2">Average</option>
+          <option value="1">Bad</option>
+        </select>
+      </div>
+      <div id="comment-div">
+        <textarea name="text-area" rows="4" cols="30" id="text-area"></textarea>
+      </div>
+      <button id="add-comment">Submit rating</button>
+      <button id="remove-comments">Remove ratings</button>
+      <div id="all-ratings"></div>
+
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>

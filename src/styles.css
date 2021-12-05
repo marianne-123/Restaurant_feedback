@@ -1,0 +1,74 @@
+body {
+  font-family: garamond;
+  width: 500px;
+  align-content: center;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(70, 114, 103);
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border: 10px;
+}
+
+tr:nth-of-type(2n) {
+  background-color: gainsboro;
+}
+
+button {
+  margin: 3px 0 10px 0;
+  padding: 3px 10px 3px 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#add-comment {
+  background-color: rgb(70, 114, 103);
+  color: white;
+}
+
+#rating-div {
+  margin: 15px 0 0 0;
+}
+
+#all-ratings {
+  margin: 5px;
+}
+
+textarea {
+  margin: 5px;
+}
+
+.header {
+  color: white;
+  font-style: italic;
+  background-color: rgb(70, 114, 103);
+  padding: 3px;
+}
+
+.menu-layout {
+  text-align: center;
+  max-width: 740px;
+  margin: auto;
+}
+
+#menu-table {
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 100%;
+}
+
+.comment {
+  border: 1px solid black;
+  width: 300px;
+  margin: 5px auto 5px auto;
+  padding: 3px;
+}
+
+.remove-comment {
+  visibility: hidden;
+}
